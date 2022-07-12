@@ -18,5 +18,5 @@ class Profile(models.Model):
 
 
     def __str__(self):
-        super().save()
+        super().save(*args, **kwargs)
 
